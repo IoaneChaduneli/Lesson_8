@@ -1,0 +1,212 @@
+/* start header */
+.header{
+    margin-top: 60px;
+    
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    width: 581px;
+}
+.nav-a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D37F1;
+}
+.nav-a:hover{
+    color: red;
+}
+/* end header */
+/* start section */
+.section{
+    margin-top: 200px;
+    height: 650px;  
+    
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+.text-box{
+    margin-left: 250px;
+}
+.title-box{
+    width: 600px;
+}
+.h2-title{
+    font-size: 78px;
+    color: #534D4D;
+    font-weight: bold;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.paragraph{
+    margin-top: 25px;
+    margin-left: 5px;
+    font-size: 22px;
+    color: #534D4D;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.wave{
+    width: 264px;
+    height: 77px;
+    margin-top: 75px;
+    background-color: #3D37F1;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.wave-img{
+    width: 35px;
+    margin-left: 65px;
+    margin-bottom: 9px;
+    
+    
+}
+.wave-text{
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-right: 60px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.img-block{
+    width: 810px;
+    margin-right: 70px;
+    margin-top: -50px;
+    
+}
+.img-class{
+    width: 600px;
+    
+}
+/* end secction1 */
+/* start section2 */
+.section2{
+    height: 650px;
+}
+.container-text{
+    text-align: center;
+    width: 580px;
+    margin: 0 auto;
+    
+}
+
+.title-1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D37F1;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.title-2{
+    margin-top: 20px;
+    font-size: 40px;
+    color: #534D4D;font-family: 'Oleo Script Swash Caps', cursive;
+}
+.container-p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #747474;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+/* blocks */
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 270px;
+    margin-top: 100px;
+    width: 1250px;
+    justify-content: space-between;
+    
+    
+    
+}
+.content-block{
+    width: 390px;
+    height: 451px;
+    background-color: #FBBA77;
+    border-radius: 20px;
+    /* text-align: center; */
+    padding: 30px 30px;
+    opacity: 0.3;
+    cursor: pointer;
+    
+    
+}
+.content-block:hover{
+    opacity: 1;
+}
+.content-img{
+    margin-top: 80px;
+    transform: translateX(115px);
+    height: 99px;
+}
+.content-title{
+    margin-top: 30px;
+    color: #FFFFFF;
+    margin-left: 120px;
+    font-size: 22px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    
+}
+.content-text{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0 30px;
+    margin-top: 20px;
+    line-height: 20px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    
+}
+.button{
+    margin-top: 30px;
+    margin-left: 100px;
+    color: #FFFFFF;
+    border: 3px solid white ;
+    height: 50px;
+    width: 122px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.button-text{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 12px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    
+}
+.content-block:nth-child(4),
+.content-block:nth-child(5),
+.content-block:nth-child(6){
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.content-block:nth-child(2){
+    background-color: #41EAE3;
+}
+.content-block:nth-child(3){
+    background-color: #69529F;
+}
+.content-block:nth-child(4){
+    background-color: #4386D2;
+}
+.content-block:nth-child(5){
+    background-color: #A5A2F6;
+}
+.content-block:nth-child(6){
+    background-color: #FF8088;
+}
