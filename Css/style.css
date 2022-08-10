@@ -4,23 +4,26 @@
     
 }
 .container{
-    width: 1400px;
+    max-width: 1600px;
+    width: 75%;
     margin: 0 auto;
     
 }
 .header-wrapper{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   
     
 }
 .nav-ul{
     display: flex;
     justify-content: space-between; 
+    margin-top: 15px;
 }
 
 .navigation{
-    width: 581px;
+    max-width: 600px;
+    width: 90%;
 }
 .nav-a{
     font-size: 20px;
@@ -32,6 +35,11 @@
 .nav-a:hover{
     color: red;
 }
+.burger-bar{
+    display: none;
+    max-width: 50px;
+    width: 100%;
+}
 /* end header */
 /* start section */
 .section{
@@ -40,14 +48,18 @@
     
 }
 .container2{
+    max-width: 1900px;
+    width: 100%;
     display: flex;
+    
     justify-content: space-between;
 }
 .text-box{
     margin-left: 250px;
 }
 .title-box{
-    width: 600px;
+   max-width:600px;
+   width: 100%;
 }
 .h2-title{
     font-size: 78px;
@@ -63,7 +75,7 @@
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 .wave{
-    width: 264px;
+    max-width: 264px;
     height: 77px;
     margin-top: 75px;
     background-color: #3D37F1;
@@ -75,6 +87,7 @@
     width: 35px;
     margin-left: 65px;
     margin-bottom: 9px;
+    width: 10%;
     
     
 }
@@ -86,13 +99,15 @@
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 .img-block{
-    width: 810px;
+    max-width: 810px;
+    
     margin-right: 70px;
     margin-top: -50px;
     
 }
 .img-class{
-    width: 600px;
+    width: 100%;
+    
     
 }
 /* end secction1 */
@@ -102,7 +117,8 @@
 }
 .container-text{
     text-align: center;
-    width: 580px;
+    max-width: 580px;
+    width: 100%;
     margin: 0 auto;
     
 }
@@ -112,11 +128,13 @@
     font-weight: bold;
     color: #3D37F1;
     font-family: 'Oleo Script Swash Caps', cursive;
+    width: 50%;
 }
 .title-2{
     margin-top: 20px;
     font-size: 40px;
     color: #534D4D;font-family: 'Oleo Script Swash Caps', cursive;
+    width: 100%;
 }
 .container-p{
     margin-top: 20px;
@@ -124,22 +142,24 @@
     font-size: 18px;
     color: #747474;
     font-family: 'Oleo Script Swash Caps', cursive;
+    width: 100%;
 }
 /* blocks */
 .blocks{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 270px;
-    margin-top: 100px;
-    width: 1250px;
+    max-width: 1250px;
+    margin: 20px auto;
+    width: 80%;
     justify-content: space-between;
     
     
     
 }
 .content-block{
-    width: 390px;
-    height: 451px;
+    max-width:  390px;
+    width: 100%;
+    /* height: 451px; */
     background-color: #FBBA77;
     border-radius: 20px;
     /* text-align: center; */
@@ -156,6 +176,7 @@
     margin-top: 80px;
     transform: translateX(115px);
     height: 99px;
+    
 }
 .content-title{
     margin-top: 30px;
